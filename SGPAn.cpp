@@ -27,7 +27,7 @@ int main()
 
         else if (grades == "B+" || grades == "b+")
         {
-            point = 3.75;
+            point = 3.50;
         }
         else if (grades == "B" || grades == "b")
         {
@@ -55,5 +55,6 @@ int main()
         sumHours += creditHours;
         sumPoints += gradespoint;
     }
-    cout << "Here is the Final SGPA: " << setprecision(2) << sumPoints / sumHours << endl;
+    SGPA = sumPoints / sumHours;
+    cout << "Here is the Final SGPA: " << setprecision(2) << SGPA << endl;
 }

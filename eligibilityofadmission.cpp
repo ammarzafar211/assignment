@@ -11,19 +11,20 @@ int main()
     cin >> chemMarks;
 
     mathsAndPhys = mathMarks + phyMarks;
+    TotalInThree = mathMarks + phyMarks + chemMarks;
 
     if (TotalInThree >= 190 || mathsAndPhys >= 140)
     {
 
-        if (mathMarks < 65)
+        if (mathMarks >= 65)
         {
             cout << "You are legging in the maths Marks!" << endl;
         }
-        else if (phyMarks < 55)
+        else if (phyMarks >= 55)
         {
             cout << "You are legging in the Physics marks!" << endl;
         }
-        else if (chemMarks < 50)
+        else if (chemMarks >= 50)
         {
             cout << "You are legging in chemistry Marks! " << endl;
         }

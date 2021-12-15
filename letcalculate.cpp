@@ -2,7 +2,7 @@
 using namespace std;
 int main()
 {
-    int num, min = -99, max = 0, input, sum = 0;
+    int num, min = 0, max = 0, sum = 0;
     while (num != -99)
     {
         cout << "Please Enter the  Entries : ";
@@ -11,11 +11,11 @@ int main()
         {
             break;
         }
-        if (min == -99 || num < min)
+        if (min == 0 || num < min)
         {
             min = num;
         }
-        if (num > max)
+        if (max == 0 || num > max)
         {
             max = num;
         }
