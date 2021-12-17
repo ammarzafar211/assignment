@@ -312,7 +312,8 @@ singleHmcondition:
                 if (x == "mm" || x == "MM")
                 {
                     cout << "HHHMMM --()SHIP()----------------------" << endl;
-                    cout << "You have successfully transfer the creaters accross the river..";
+                    cout << "Congratulation... " << endl;
+                    cout << "You have successfully transfer the creaters accross the river.." << endl;
 
                     cout << "If you wanna Run again then Enter Y otherwise press N: ";
                     cin >> y;
@@ -322,7 +323,7 @@ singleHmcondition:
                     }
                     else
                     {
-                        cout << "Better Luck Next Time... " << endl;
+                        cout << "Thnaks For Playing... " << endl;
                     }
                 }
             }
@@ -577,7 +578,9 @@ singleHmcondition:
                     if (x == "MM" || x == "mm")
                     {
                         cout << "HHHMMM --()SHIP()---------------------- " << endl;
-                        cout << "You have successfully transfer the creaters accross the river..";
+
+                        cout << "Congratulation... " << endl;
+                        cout << "You have successfully transfer the creaters accross the river.." << endl;
 
                         cout << "If you wanna Run again then Enter Y otherwise press N: ";
                         cin >> y;
@@ -587,7 +590,7 @@ singleHmcondition:
                         }
                         else
                         {
-                            cout << "Better Luck Next Time... " << endl;
+                            cout << "Thnaks For Playing... " << endl;
                         }
                     }
                 }
